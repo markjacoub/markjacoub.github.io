@@ -1,8 +1,7 @@
 # Mark Jacoub, PMP
 **Email:** [mark.f.jacoub@gmail.com](mailto:mark.f.jacoub@gmail.com)  
-**Phone:** (310) 901-6183  
 **Location:** California  
-**LinkedIn:** [linkedin.com/in/mark-jacoub](https://linkedin.com/in/mark-jacoub)
+**[LinkedIn](https://linkedin.com/in/mark-jacoub)**
 
 ## Summary
 Certified Project Management Professional (PMP) and Professional Scrum Master (PSM-I), aligning business objectives with project management to drive customer satisfaction and company growth. Specializes in merging technology with business requirements, focusing on cross-functional team leadership, complex problem-solving, and data analytics. Committed to enhancing organizational efficiency through superior interpersonal and organizational skills.
