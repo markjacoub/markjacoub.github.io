@@ -19,28 +19,6 @@ a {
     text-decoration: none;
 }
 
-.container {
-    width: 85%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.hero {
-    background: #007bff;
-    color: #fff;
-    padding: 40px 0;
-}
-
-.hero-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px; /* Space between image and text */
-}
-
 .profile-pic img {
     border-radius: 50%; /* Make image round */
     width: 150px;
@@ -49,8 +27,18 @@ a {
     border: 5px solid #fff;
 }
 
-.hero-text {
-    max-width: 70%;
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background: #007bff;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
 }
 
 .hero h1 {
