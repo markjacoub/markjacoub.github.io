@@ -159,8 +159,8 @@ ul.skills-list {
     }
 
     .profile-pic img {
-        width: 1200px; /* Slightly smaller profile image for mobile */
-        height: 1200px;
+        width: 700px; /* Slightly smaller profile image for mobile */
+        height: 700px;
     }
 
     .hero h1 {
@@ -199,8 +199,8 @@ ul.skills-list {
     }
 
     .profile-pic img {
-        width: 600px; /* Smaller profile image for very small screens */
-        height: 600px;
+        width: 500px; /* Smaller profile image for very small screens */
+        height: 500px;
     }
 
     .hero-content {
