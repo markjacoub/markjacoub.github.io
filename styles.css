@@ -51,8 +51,8 @@ a:hover {
 
 .profile-pic img {
     border-radius: 50%; /* Make image round */
-    width: 450px; /* Fixed width for desktop */
-    height: 450px;
+    width: 150px; /* Fixed width for desktop */
+    height: 150px;
     object-fit: cover; /* Keep the image proportionate */
     border: 5px solid #fff; /* Optional white border around the image */
 }
@@ -159,8 +159,8 @@ ul.skills-list {
     }
 
     .profile-pic img {
-        width: 360px; /* Slightly smaller profile image for mobile */
-        height: 360px;
+        width: 120px; /* Slightly smaller profile image for mobile */
+        height: 120px;
     }
 
     .hero h1 {
@@ -199,8 +199,8 @@ ul.skills-list {
     }
 
     .profile-pic img {
-        width: 300px; /* Smaller profile image for very small screens */
-        height: 300px;
+        width: 100px; /* Smaller profile image for very small screens */
+        height: 100px;
     }
 
     .hero-content {
