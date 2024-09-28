@@ -51,8 +51,8 @@ a:hover {
 
 .profile-pic img {
     border-radius: 50%; /* Make image round */
-    width: 750px; /* Fixed width for desktop */
-    height: 750px;
+    width: 500px; /* Fixed width for desktop */
+    height: 500px;
     object-fit: cover; /* Keep the image proportionate */
     border: 2px solid #fff; /* Optional white border around the image */
 }
