@@ -131,6 +131,24 @@ ul.skills-list {
     padding-left: 0; /* Remove default padding */
 }
 
+footer.footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #f4f4f9;
+}
+
 /* RESPONSIVE DESIGN: ADAPT FOR MOBILE VIEW */
 
 /* Adjust for screens with a width of 768px or smaller (tablet & mobile) */
