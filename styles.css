@@ -51,10 +51,10 @@ a:hover {
 
 .profile-pic img {
     border-radius: 50%; /* Make image round */
-    width: 750px; /* Fixed width for desktop */
-    height: 750px;
+    width: 1050px; /* Fixed width for desktop */
+    height: 1050px;
     object-fit: cover; /* Keep the image proportionate */
-    border: 5px solid #fff; /* Optional white border around the image */
+    border: 2px solid #fff; /* Optional white border around the image */
 }
 
 .hero-text {
@@ -141,8 +141,8 @@ ul.skills-list {
     }
 
     .profile-pic img {
-        width: 500px; /* Slightly smaller profile image for mobile */
-        height: 500px;
+        width: 800px; /* Slightly smaller profile image for mobile */
+        height: 800px;
     }
 
     .hero h1 {
