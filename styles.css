@@ -123,30 +123,12 @@ h2 {
 /* List Styling */
 ul {
     list-style-type: square;
-    margin-left: 20px;
+    margin-left: 20px; /* Indent the list */
 }
 
 ul.skills-list {
-    columns: 2;
-    column-gap: 40px;
-}
-
-.footer {
-    background: #007bff;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
-}
-
-.footer a {
-    color: #fff;
-    text-decoration: underline;
-    transition: color 0.3s ease-in-out;
-}
-
-.footer a:hover {
-    color: #f4f4f9;
+    list-style-position: inside; /* Ensure the bullets stay inside the container */
+    padding-left: 0; /* Remove default padding */
 }
 
 /* RESPONSIVE DESIGN: ADAPT FOR MOBILE VIEW */
@@ -175,43 +157,4 @@ ul.skills-list {
         max-width: 100%; /* Let text take up full width on mobile */
     }
 
-    ul.skills-list {
-        columns: 1; /* Single column list for smaller screens */
-    }
-
-    h2 {
-        font-size: 1.8em; /* Slightly smaller section headings */
-    }
-
-    .container {
-        width: 90%; /* Increase container width for smaller screens */
-    }
-}
-
-/* Adjust for screens with a width of 480px or smaller (mobile) */
-@media (max-width: 480px) {
-    .hero h1 {
-        font-size: 1.8em; /* Further reduce heading size */
-    }
-
-    .hero p.subtitle {
-        font-size: 1em; /* Adjust subtitle size */
-    }
-
-    .profile-pic img {
-        width: 100px; /* Smaller profile image for very small screens */
-        height: 100px;
-    }
-
-    .hero-content {
-        gap: 20px; /* Reduce gap between image and text */
-    }
-
-    .container {
-        width: 95%; /* Maximize container width for small screens */
-    }
-
-    ul.skills-list {
-        margin-left: 0; /* Center the list on very small screens */
-    }
-}
+   
