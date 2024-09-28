@@ -51,10 +51,10 @@ a:hover {
 
 .profile-pic img {
     border-radius: 50%; /* Make image round */
-    width: 1700px; /* Fixed width for desktop */
-    height: 1700px;
+    width: 450px; /* Fixed width for desktop */
+    height: 450px;
     object-fit: cover; /* Keep the image proportionate */
-    border: 3px solid #fff; /* Optional white border around the image */
+    border: 5px solid #fff; /* Optional white border around the image */
 }
 
 .hero-text {
@@ -91,7 +91,7 @@ a:hover {
 
 /* SECTION STYLING */
 .section {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     padding: 20px 0;
 }
 
@@ -159,8 +159,8 @@ ul.skills-list {
     }
 
     .profile-pic img {
-        width: 700px; /* Slightly smaller profile image for mobile */
-        height: 700px;
+        width: 360px; /* Slightly smaller profile image for mobile */
+        height: 360px;
     }
 
     .hero h1 {
@@ -199,8 +199,8 @@ ul.skills-list {
     }
 
     .profile-pic img {
-        width: 500px; /* Smaller profile image for very small screens */
-        height: 500px;
+        width: 300px; /* Smaller profile image for very small screens */
+        height: 300px;
     }
 
     .hero-content {
@@ -210,8 +210,8 @@ ul.skills-list {
     .container {
         width: 95%; /* Maximize container width for small screens */
     }
-    
+
     ul.skills-list {
-        margin-left: 1em; /* Center the list on very small screens */
+        margin-left: 0; /* Center the list on very small screens */
     }
 }
