@@ -51,10 +51,10 @@ a:hover {
 
 .profile-pic img {
     border-radius: 50%; /* Make image round */
-    width: 150px; /* Fixed width for desktop */
-    height: 150px;
+    width: 400px; /* Fixed width for desktop */
+    height: 400px;
     object-fit: cover; /* Keep the image proportionate */
-    border: 5px solid #fff; /* Optional white border around the image */
+    border: 3px solid #fff; /* Optional white border around the image */
 }
 
 .hero-text {
@@ -159,8 +159,8 @@ ul.skills-list {
     }
 
     .profile-pic img {
-        width: 120px; /* Slightly smaller profile image for mobile */
-        height: 120px;
+        width: 300px; /* Slightly smaller profile image for mobile */
+        height: 300px;
     }
 
     .hero h1 {
@@ -199,8 +199,8 @@ ul.skills-list {
     }
 
     .profile-pic img {
-        width: 100px; /* Smaller profile image for very small screens */
-        height: 100px;
+        width: 200px; /* Smaller profile image for very small screens */
+        height: 200px;
     }
 
     .hero-content {
