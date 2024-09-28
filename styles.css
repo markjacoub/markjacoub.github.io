@@ -211,7 +211,4 @@ ul.skills-list {
         width: 95%; /* Maximize container width for small screens */
     }
 
-    ul.skills-list {
-        margin-left: 0; /* Center the list on very small screens */
-    }
 }
