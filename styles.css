@@ -21,10 +21,10 @@ a {
 
 .profile-pic img {
     border-radius: 50%; /* Make image round */
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     object-fit: cover;
-    border: 5px solid #fff;
+    border: 3px solid #fff;
 }
 
 .container {
