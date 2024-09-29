@@ -32,7 +32,7 @@ a:hover {
     width: 85%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 5px;
 }
 
 /* HERO SECTION */
@@ -127,14 +127,14 @@ ul {
     margin-left: 20px; /* Indent the list */
 }
 
-ul.skills-list {
-    column-count:6; 
+ul.courses-list {
+    column-count:2; 
     list-style-position: inside; /* Ensure the bullets stay inside the container */
     padding-left: 0; /* Remove default padding */
 }
 
-ul.courses-list {
-    column-count:2; 
+ul.skills-list {
+    column-count:6; 
     list-style-position: inside; /* Ensure the bullets stay inside the container */
     padding-left: 0; /* Remove default padding */
 }
