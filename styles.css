@@ -1,3 +1,4 @@
+
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
@@ -127,6 +128,13 @@ ul {
 }
 
 ul.skills-list {
+    column-count:6; 
+    list-style-position: inside; /* Ensure the bullets stay inside the container */
+    padding-left: 0; /* Remove default padding */
+}
+
+ul.courses-list {
+    column-count:2; 
     list-style-position: inside; /* Ensure the bullets stay inside the container */
     padding-left: 0; /* Remove default padding */
 }
@@ -174,5 +182,11 @@ footer.footer {
     .hero-text {
         max-width: 100%; /* Let text take up full width on mobile */
     }
-
+    ul.courses-list {
+        column-count:1; 
+    }
    
+    ul.skills-list {
+        column-count:2; 
+    }
+}
