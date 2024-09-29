@@ -31,84 +31,97 @@ a:hover {
     width: 85%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 20px; /* Add more padding */
 }
 
 /* HERO SECTION */
 .hero {
     background-color: #007bff;
     color: #fff;
-    padding: 40px 20px;
+    padding: 60px 20px; /* Increase padding for a more spacious look */
 }
 
 .hero-content {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
 }
 
 .profile-pic img {
-    border-radius: 50%; /* Make image round */
-    width: 250px; /* Adjusted size for desktop */
+    border-radius: 50%;
+    width: 250px;
     height: 250px;
     object-fit: cover;
-    border: 2px solid #fff;
+    border: 4px solid #fff; /* Thicker border */
+    transition: transform 0.3s ease; /* Add hover effect */
+}
+
+.profile-pic img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
 }
 
 .hero-text {
     text-align: left;
-    max-width: 70%; /* Limits the text width to 70% on wider screens */
+    max-width: 65%;
+    padding: 20px; /* Add padding to text for better readability */
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle background to separate text */
+    border-radius: 10px;
 }
 
-/* Headings and Text */
 .hero h1 {
-    font-size: 2.5em; /* Large font size for desktop */
+    font-size: 3em;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Increase spacing */
 }
 
 .hero p.subtitle {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
 }
 
 .hero p {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .hero a {
     color: #fff;
     font-weight: bold;
-    border-bottom: 1px solid #fff;
-    transition: border-bottom 0.3s ease-in-out;
+    border-bottom: 2px solid #fff; /* Thicker underline */
+    transition: border-bottom 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .hero a:hover {
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
+    color: #f4f4f9; /* Color change on hover */
 }
 
 /* SECTION STYLING */
 .section {
-    margin-bottom: 40px;
-    padding: 20px 0;
+    margin-bottom: 50px;
+    padding: 30px 40;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for section separation */
 }
 
 /* Headings for sections */
 h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #007bff;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     text-transform: uppercase;
+    border-bottom: 2px solid #007bff; /* Add underline to section headings */
+    padding-bottom: 10px;
 }
 
 .job, .education-item {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .job h3, .education-item h3 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: 600;
     color: #333;
 }
@@ -116,14 +129,14 @@ h2 {
 .job-title {
     font-style: italic;
     color: #666;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     display: block;
 }
 
 /* List Styling */
 ul {
     list-style-type: square;
-    margin-left: 20px; /* Indent the list */
+    margin-left: 20px;
 }
 
 ul.courses-list {
@@ -133,17 +146,19 @@ ul.courses-list {
 }
 
 ul.skills-list {
-    column-count: 3; /* Adjusted column count for desktop */
+    column-count: 3;
     list-style-position: inside;
     padding-left: 0;
 }
 
+/* FOOTER STYLING */
 footer.footer {
     background: #007bff;
     color: white;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+    padding: 30px 0;
+    margin-top: 50px;
+    border-top: 5px solid #0066cc; /* Add more definition to footer */
 }
 
 .footer a {
@@ -168,11 +183,11 @@ footer.footer {
     }
 
     .hero h1 {
-        font-size: 2em;
+        font-size: 2.2em;
     }
 
     .hero p.subtitle {
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 
     .hero-text {
@@ -191,5 +206,17 @@ footer.footer {
 @media (max-width: 480px) {
     ul.skills-list, ul.courses-list {
         column-count: 1;
+    }
+
+    .hero-text {
+        padding: 15px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p.subtitle {
+        font-size: 1.2em;
     }
 }
