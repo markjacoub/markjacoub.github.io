@@ -1,4 +1,3 @@
-
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
@@ -39,7 +38,7 @@ a:hover {
 .hero {
     background-color: #007bff;
     color: #fff;
-    padding: 40px 20px; /* Add some padding for better mobile view */
+    padding: 40px 20px;
 }
 
 .hero-content {
@@ -47,15 +46,15 @@ a:hover {
     align-items: center;
     justify-content: flex-start;
     gap: 30px;
-    flex-wrap: wrap; /* This ensures the image and text stack on smaller screens */
+    flex-wrap: wrap;
 }
 
 .profile-pic img {
     border-radius: 50%; /* Make image round */
-    width: 500px; /* Fixed width for desktop */
-    height: 500px;
-    object-fit: cover; /* Keep the image proportionate */
-    border: 2px solid #fff; /* Optional white border around the image */
+    width: 250px; /* Adjusted size for desktop */
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid #fff;
 }
 
 .hero-text {
@@ -128,15 +127,15 @@ ul {
 }
 
 ul.courses-list {
-    column-count:2; 
-    list-style-position: inside; /* Ensure the bullets stay inside the container */
-    padding-left: 0; /* Remove default padding */
+    column-count: 2;
+    list-style-position: inside;
+    padding-left: 0;
 }
 
 ul.skills-list {
-    column-count:6; 
-    list-style-position: inside; /* Ensure the bullets stay inside the container */
-    padding-left: 0; /* Remove default padding */
+    column-count: 3; /* Adjusted column count for desktop */
+    list-style-position: inside;
+    padding-left: 0;
 }
 
 footer.footer {
@@ -158,35 +157,39 @@ footer.footer {
 }
 
 /* RESPONSIVE DESIGN: ADAPT FOR MOBILE VIEW */
-
-/* Adjust for screens with a width of 768px or smaller (tablet & mobile) */
 @media (max-width: 768px) {
     .hero-content {
-        flex-direction: column; /* Stack image and text vertically on smaller screens */
-        text-align: center; /* Center-align text for mobile view */
+        flex-direction: column;
     }
 
     .profile-pic img {
-        width: 300px; /* Slightly smaller profile image for mobile */
-        height: 300px;
+        width: 150px;
+        height: 150px;
     }
 
     .hero h1 {
-        font-size: 2em; /* Reduce heading size for mobile */
+        font-size: 2em;
     }
 
     .hero p.subtitle {
-        font-size: 1.1em; /* Slightly smaller subtitle */
+        font-size: 1.1em;
     }
 
     .hero-text {
-        max-width: 100%; /* Let text take up full width on mobile */
+        max-width: 100%;
     }
+
     ul.courses-list {
-        column-count:1; 
+        column-count: 1;
     }
-   
+
     ul.skills-list {
-        column-count:2; 
+        column-count: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    ul.skills-list, ul.courses-list {
+        column-count: 1;
     }
 }
